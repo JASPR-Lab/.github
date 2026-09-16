@@ -33,7 +33,7 @@ git push
 
 Then:
 
-1. Edit `.github/CODEOWNERS` and replace the placeholder usernames.
+1. Review `.github/CODEOWNERS`. It defaults to the lab lead and PI; add the students working on the project.
 2. Fill in the `README.md` placeholders, `CITATION.cff` and the license year/holder, if needed.
 3. Give the right team or outside collaborators access (see the
    [lab-handbook access conventions](https://github.com/JASPR-Lab/lab-handbook/blob/main/conventions/repositories.md)).
