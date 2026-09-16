@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Lab handbook (onboarding, conventions, access requests)
+    url: https://github.com/JASPR-Lab/lab-handbook
+    about: Check the handbook before opening process or access questions.
