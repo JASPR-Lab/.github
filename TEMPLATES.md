@@ -18,7 +18,9 @@ Org owners create repos (members can't create repos in this org).
 
 ```sh
 # 1. Create from the template (private by default for research code)
-gh repo create JASPR-Lab/<repo-name> --template JASPR-Lab/repo-template --private --clone
+gh repo create JASPR-Lab/<repo-name> --template JASPR-Lab/repo-template --private
+# Wait ~10 seconds for GitHub to copy the template, or the clone comes down empty
+gh repo clone JASPR-Lab/<repo-name>
 cd <repo-name>
 
 # 2. Apply a variant and name the Python package
